@@ -3877,7 +3877,7 @@ input:focus {
 
 /* line 2, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_h1-hero.scss */
 .slider-height {
-  min-height: 800px;
+  min-height: 500px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3920,7 +3920,7 @@ input:focus {
 
 /* line 24, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_h1-hero.scss */
 .slider-height2 {
-  min-height: 300px;
+  min-height: 200px;
   background-repeat: no-repeat;
   background-position: center center;
   background-size: cover;
@@ -3929,7 +3929,7 @@ input:focus {
 @media (max-width: 767px) {
   /* line 24, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_h1-hero.scss */
   .slider-height2 {
-    min-height: 260px;
+    min-height: 150px;
   }
 }
 
@@ -4566,32 +4566,32 @@ input:focus {
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
   /* line 23, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption {
-    padding-top: 150px;
-    padding-bottom: 130px;
+    padding-top: 80px;
+    padding-bottom: 70px;
   }
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 23, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption {
-    padding-top: 80px;
-    padding-bottom: 75px;
+    padding-top: 40px;
+    padding-bottom: 35px;
   }
 }
 
 @media only screen and (min-width: 576px) and (max-width: 767px) {
   /* line 23, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption {
-    padding-top: 80px;
-    padding-bottom: 75px;
+    padding-top: 40px;
+    padding-bottom: 35px;
   }
 }
 
 @media (max-width: 767px) {
   /* line 23, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption {
-    padding-top: 80px;
-    padding-bottom: 75px;
+    padding-top: 40px;
+    padding-bottom: 35px;
   }
 }
 
@@ -4636,17 +4636,17 @@ input:focus {
 .best-product-area .best-product-caption p {
   color: #373b41;
   font-size: 20px;
-  margin-bottom: 55px;
-  padding-top: 80px;
-  padding-bottom: 75px;
+  margin-bottom: 15px;
+  padding-top: 10px;
+  padding-bottom: 5px;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   /* line 61, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption p {
     font-size: 17px;
-    padding-top: 80px;
-    padding-bottom: 75px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 }
 
@@ -4654,8 +4654,8 @@ input:focus {
   /* line 61, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption p {
     font-size: 17px;
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 }
 
@@ -4663,8 +4663,8 @@ input:focus {
   /* line 61, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_best-product.scss */
   .best-product-area .best-product-caption p {
     font-size: 17px;
-    padding-top: 40px;
-    padding-bottom: 35px;
+    padding-top: 10px;
+    padding-bottom: 5px;
   }
 }
 
@@ -6774,20 +6774,20 @@ input:focus {
 
 /* line 133, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_contact.scss */
 .contact-section {
-  padding: 130px 0 100px;
+  padding: 0px 0 100px;
 }
 
 @media (max-width: 991px) {
   /* line 133, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_contact.scss */
   .contact-section {
-    padding: 70px 0 40px;
+    padding: 0px 0 40px;
   }
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1200px) {
   /* line 133, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_contact.scss */
   .contact-section {
-    padding: 80px 0 50px;
+    padding: 0px 0 50px;
   }
 }
 
