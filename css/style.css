@@ -13049,4 +13049,56 @@ input:focus {
   }
 }
 
-/*# sourceMappingURL=style.css.map */
+
+
+
+
+
+
+
+
+
+
+
+/* New Classes */
+
+@media (max-width: 1000px) {
+  /* line 143, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_blog_part.scss */
+  .line_show{
+    display: none;
+  }
+}
+
+@media (max-width: 999px) {
+  /* line 143, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_blog_part.scss */
+  .mobile_only{
+   padding-top: 80px;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /* line 143, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_blog_part.scss */
+  .mobile_only{
+    display: none;
+  }
+}
+
+
+@media (max-width: 999px) {
+  /* line 143, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_blog_part.scss */
+  .mobile_center_text{
+   text-align: center;
+  }
+}
+
+@media only screen and (min-width: 1000px) {
+  /* line 143, ../../SAIFUL/Running_project/250 eCommerce_HTML/250 eCommerce_HTML/250 eCommerce_HTML/assets/scss/_blog_part.scss */
+  .mobile_center_text{
+   
+  }
+}
+
+
+html {
+  scroll-behavior: smooth;
+}
