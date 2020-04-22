@@ -97,24 +97,16 @@
             <div class = "col-md-12"> 
                 <pre> 
                 </pre>
-              </div>
-              <div class="pro-img-details">
-                  <img src="http://thevectorlab.net/flatlab/img/product-list/pro-thumb-big.jpg" alt="">
-              </div>
-              <div class="pro-img-list">
-                  <a href="#">
-                      <img src="http://thevectorlab.net/flatlab/img/product-list/pro-thumb-1.jpg" alt="">
-                  </a>
-                  <a href="#">
-                      <img src="http://thevectorlab.net/flatlab/img/product-list/pro-thumb-2.jpg" alt="">
-                  </a>
-                  <a href="#">
-                      <img src="http://thevectorlab.net/flatlab/img/product-list/pro-thumb-3.jpg" alt="">
-                  </a>
-                  <a href="#">
-                      <img src="http://thevectorlab.net/flatlab/img/product-list/pro-thumb-1.jpg" alt="">
-                  </a>
-              </div>
+            </div>
+            <div class="imgBox"><img src = "assets/img/product_details/product_details_1.png" width = "100%"></div>
+            <ul class="thumb">
+              <li><a href = "assets/img/product_details/product_details_1.png" target = "imgBox"><img src="assets/img/product_details/product_details_1.png" width = "100%"></a></li>
+              <li><a href = "assets/img/product_details/product_details_2.png" target = "imgBox"><img src="assets/img/product_details/product_details_2.png" width = "100%"></a></li>
+              <li><a href = "assets/img/product_details/product_details_3.png" target = "imgBox"><img src="assets/img/product_details/product_details_3.png" width = "100%"></a></li>
+              <li><a href = "assets/img/product_details/product_details_4.png" target = "imgBox"><img src="assets/img/product_details/product_details_4.png" width = "100%"></a></li>
+            </ul>
+              
+                
           </div>
           <div class="col-md-6">
               <div class = "col-md-12"> 
@@ -228,7 +220,7 @@
         <!-- Jquery Plugins, main Jquery -->    
         <script src="./assets/js/plugins.js"></script>
         <script src="./assets/js/main.js"></script>
-
+        <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
         <!-- swiper js -->
         <script src="./assets/js/swiper.min.js"></script>
             <!-- swiper js -->
@@ -254,8 +246,16 @@
               }
             });
         </script>
+        <script type="text/javascript">
+          $(documnet).ready(function(){
+            $('.thumb a').click(function(e){
+              e.preventDefault();
+              $('.imgBox img').attr("src", $(this).attr("href"));
+            })
+          })
+        </script>>
 
 
 </body>
-
+ 
 </html>
