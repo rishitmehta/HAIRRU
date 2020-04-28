@@ -167,9 +167,17 @@
                     <span>Total</span>
                 </li>
                 <li>
-                  <a href="#">Fresh Blackberry
-                    <span class="middle">x 02</span>
-                    <span class="last">$720.00</span>
+                  <a href="#">
+                    <div class="row align-items-center">
+                      <div class = "col-md-4">
+                        <span id="result"></span>
+                        <script>
+                          document.getElementById("result").innerHTML = window.sessionStorage.getItem("p");
+                        </script>
+                      </div>
+                      <div class = "col-md-4 align-items-center"><span class="middle">x 02</span></div>
+                      <div class = "col-md-4 align-items-center"><span class="middle">$720.00</span></div>
+                    </div>
                   </a>
                 </li>
                 <li>

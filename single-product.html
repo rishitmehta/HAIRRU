@@ -24,11 +24,16 @@
         <link rel="stylesheet" href="assets/css/slick.css">
         <link rel="stylesheet" href="assets/css/nice-select.css">
         <link rel="stylesheet" href="assets/css/style.css">
+        <script>
+          function  myfunction() {
+            window.sessionStorage.setItem("p", "Hair Cream 1");           
+          }          
+        </script>
 
 </head>
     
 
-<body>
+<body onload = "myfunction">
     
     <header >
         <!-- Header Start -->
@@ -115,7 +120,7 @@
               </div>
               <h4 class="pro-d-title">
                   <a href="#">
-                      <p style="font-family:verdana; font-size: 200%;">Leopard Shirt Dress</p>
+                      <p style="font-family:verdana; font-size: 200%;" id = "product1">Leopard Shirt Dress</p>
                   </a>
               </h4>
               <p>
@@ -132,7 +137,7 @@
                   
               </div>
               <p>
-                  <button class="btn btn-round btn-danger" type="button">Buy Now</button>
+                  <a href = "checkout.html"><button class="btn btn-round btn-danger" type="button" onClick = "myfunction">Buy Now</button></a>
               </p>
               <section class="faq-content">
               <div class="container">
@@ -247,13 +252,13 @@
             });
         </script>
         <script type="text/javascript">
-          $(documnet).ready(function(){
+          $(document).ready(function(){
             $('.thumb a').click(function(e){
               e.preventDefault();
               $('.imgBox img').attr("src", $(this).attr("href"));
             })
           })
-        </script>>
+        </script>
 
 
 </body>
